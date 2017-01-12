@@ -7,11 +7,11 @@ public class JenkinsLauncher {
 
 	private String launcherUrl;
 	
-	private String token;
+	private String token;	// Job Token
 	
-	private String jenkinsApiTokenUser;
+	private String jenkinsApiTokenUser;	// Jenkins User
 	
-	private String jenkinsApiTokenKey;
+	private String jenkinsApiTokenKey;	// Jenkins User Token 
 
 	
 	public String getBuildLauncherUrl(String jenkinsApiServerBaseUrl) {
